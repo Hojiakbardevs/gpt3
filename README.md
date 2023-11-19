@@ -1,4 +1,6 @@
-# React + Vite
+# Gpt3 yangi texnologiya 
+
+ushbu yangi texnologiya olamiga hush kelibsiz keling bizni qarshi oling
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
