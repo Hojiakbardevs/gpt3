@@ -4,7 +4,6 @@ import { Gradient_bg } from "./style";
 import Header from "./Containers/header";
 import Brand from "./Components/Brand";
 import Whatgpt from "./Containers/whatgpt";
-import Features from "./Containers/features";
 import Posibilty from "./Containers/posibilty";
 import Cta from "./Components/Cta";
 import Blog from "./Containers/blog";
@@ -19,7 +18,6 @@ const App = () => {
       </Gradient_bg>
       <Brand />
       <Whatgpt />
-      <Features />
       <Posibilty />
       <Cta />
       <Blog />
