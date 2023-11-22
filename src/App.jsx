@@ -13,7 +13,7 @@ import Footer from "./Containers/footer";
 const App = () => {
   return (
     <div>
-      <Gradient_bg>
+      <Gradient_bg className="section__padding">
         <Navbars />
         <Header />
       </Gradient_bg>

@@ -6,7 +6,7 @@ const Navbars = () => {
   const [toogleMenu, setToogleMenu] = useState(false);
   return (
     <div>
-      <Wrapper className="section__padding">
+      <Wrapper>
         <Logomenu>
           <img src={logo} alt="logo" />
           <ul>

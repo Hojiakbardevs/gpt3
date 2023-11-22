@@ -1,5 +1,5 @@
 import { styled } from "styled-components";
-import './index.css'
+import "./index.css";
 
 export const Gradient_bg = styled.div`
   background: -moz-radial-gradient(
@@ -38,18 +38,17 @@ export const Gradient_text = styled.div`
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  font-weight: 800;
+  font-size: 62px;
+  line-height: 75px;
+  letter-spacing: -0.04em;
 `;
 
 export const Wrapper = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-between;
-
-  img {
-    width: 62.557px;
-    height: 16.016px;
-  }
-
+  gap: 20px;
   ul {
     display: flex;
     list-style: none;
@@ -71,8 +70,24 @@ export const Wrapper = styled.div`
     ul {
       display: none;
     }
+    &#home {
+      margin-top: 2rem;
+    }
+    #ImgIllustrator {
+      min-width: 60%;
+    }
+  }
+  @media screen and (max-width: 700px) {
+    &#home {
+      display: block;
+    }
+    #ImgIllustrator {
+      width: 100%;
+    }
   }
 `;
+
+// ! Img header
 
 export const SignIn = styled.div`
   display: flex;
@@ -115,26 +130,25 @@ export const NavbarMenu = styled.div`
       background-color: var(--color-blog);
       /* left: 0; */
       padding: 2rem 1rem;
+      z-index: 1000;
 
-      ul li{
+      ul li {
         width: 30vw;
-        margin:1rem;
+        margin: 1rem;
         text-align: left;
-        a{
+        a {
           cursor: pointer;
         }
       }
 
-    
       ${SignIn} {
         display: flex;
         flex-direction: column;
         font-size: 18px;
         font-weight: 500;
-        button{
+        button {
           width: 90%;
           margin: 20px 0 0;
-
         }
       }
     }
@@ -148,4 +162,87 @@ export const NavbarMenu = styled.div`
 export const Logomenu = styled.div`
   display: flex;
   align-items: center;
+`;
+
+//! header qismini qilishni boshladim
+
+export const Content = styled.div`
+  /* width: 70vw; */
+  p {
+    padding: 33px 0;
+    color: var(--color-text);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+`;
+export const Inputtext = styled.div`
+  display: flex;
+  input {
+    background-color: var(--color-footer);
+    width: 100%;
+    padding: 20px 24px;
+    border: none;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border-radius: 5px 0px 0px 5px;
+    flex: 0.75;
+    color: var(--color-text);
+    border: none;
+    outline: none;
+  }
+  ::placeholder {
+    color: var(--color-text);
+  }
+  button {
+    flex: 0.25;
+    background: var(--color-button);
+    border-radius: 0px 5px 5px 0px;
+    border: none;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    color: white;
+    padding: 0 20px;
+    /* max-width: 174px; */
+  }
+`;
+export const PersonalImg = styled.div`
+  /* position: initial; */
+  margin-top: 2rem;
+  display: block;
+  p {
+    /* padding: 20px; */
+    color: white;
+    font-size: 16px;
+  }
+
+  @media screen and (min-width: 1400px) {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    /* border: 1px solid salmon; */
+  }
+`;
+export const Divimg = styled.div`
+  /* position: inherit; */
+  margin: 0 auto;
+  img {
+    margin-right: -15px;
+  }
+  margin-right: 25px;
+`;
+export const WrapperBrand = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  img {
+    filter: grayscale(80%);
+    padding: 10px;
+  }
 `;
