@@ -1,11 +1,16 @@
-import React from 'react'
+import React from "react";
+import { Gradient_text, WhatgptBacText } from "../style";
 
-const Features = () => {
+const Features = ({ title, text }) => {
   return (
-    <div>
-      Faturesdsadjdsa
-    </div>
-  )
-}
+    <WhatgptBacText>
+      <div>
+        <div></div>
+        <h1>{title}</h1>
+      </div>
+      <p>{text}</p>
+    </WhatgptBacText>
+  );
+};
 
-export default Features
+export default Features;
