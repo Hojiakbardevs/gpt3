@@ -1,5 +1,5 @@
 import React from "react";
-import { Gradient_text, WhatgptBacText } from "../style";
+import {WhatgptBacText } from "../style";
 
 const Features = ({ title, text }) => {
   return (

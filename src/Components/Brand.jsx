@@ -1,9 +1,9 @@
 import React from 'react'
-import logo1 from './../img/logo/atlassian.svg'
-import logo2 from './../img/logo/dropbox.svg'
-import logo3 from './../img/logo/google.svg'
-import logo4 from './../img/logo/shopify.svg'
-import logo5 from './../img/logo/slack.svg'
+import logo1 from './../img/logo/atlassian.webp'
+import logo2 from './../img/logo/dropbox.webp'
+import logo3 from './../img/logo/google.webp'
+import logo4 from './../img/logo/shopify.webp'
+import logo5 from './../img/logo/slack.webp'
 import { WrapperBrand } from '../style'
 
 const Brand = () => {

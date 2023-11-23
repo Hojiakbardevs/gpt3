@@ -1,8 +1,13 @@
 import React from 'react'
+import { Wrapperblog } from '../style'
+import posibiltyimg from '../img/girl.webp'
 
 const Posibilty = () => {
   return (
-    <div>Posibilty</div>
+    <Wrapperblog>
+      posibilty
+      <img src={posibiltyimg} alt="" />
+    </Wrapperblog>
   )
 }
 

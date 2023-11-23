@@ -1,5 +1,5 @@
 import React from "react";
-import Headerimg from "./../img/header.svg";
+import Headerimg from "./../img/header.webp";
 import { Wrapper, Gradient_text, Content, Inputtext} from "./../style";
 import Personal from "../Components/Personal";
 const Header = () => {

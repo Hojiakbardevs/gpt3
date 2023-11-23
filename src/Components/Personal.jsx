@@ -1,11 +1,11 @@
 
-import Person1 from "./../img/1.svg";
-import Person2 from "./../img/2.svg";
-import Person3 from "./../img/3.svg";
-import Person4 from "./../img/4.svg";
-import Person5 from "./../img/5.svg";
-import Person6 from "./../img/6.svg";
-import Person7 from "./../img/7.svg";
+import Person1 from "./../img/1.png";
+import Person2 from "./../img/2.png";
+import Person3 from "./../img/3.png";
+import Person4 from "./../img/4.png";
+import Person5 from "./../img/5.png";
+import Person6 from "./../img/6.png";
+import Person7 from "./../img/7.webp";
 import {PersonalImg, Divimg} from "./../style.js"
 
 const Personal = () => {

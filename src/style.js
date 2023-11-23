@@ -211,9 +211,11 @@ export const Inputtext = styled.div`
   }
 `;
 export const PersonalImg = styled.div`
-  /* position: initial; */
+  /* position: relative; */
   margin-top: 2rem;
   display: block;
+  /* border: 1px solid salmon; */
+  /* left: 0; */
   p {
     /* padding: 20px; */
     color: white;
@@ -313,5 +315,11 @@ export const WhatgptBacText = styled.div`
 
   @media screen and (max-width: 700px) {
     display: block;
+  }
+`;
+export const Wrapperblog = styled.div`
+  img {
+    width: 200px;
+    height: auto;
   }
 `;
