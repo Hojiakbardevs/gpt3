@@ -1,13 +1,13 @@
 import React from "react";
-import {WhatgptBacText } from "../style";
+import {WhatgptBacText, Whatgptblog } from "../style";
 
 const Features = ({ title, text }) => {
   return (
     <WhatgptBacText>
-      <div>
+      <Whatgptblog>
         <div></div>
         <h1>{title}</h1>
-      </div>
+      </Whatgptblog>
       <p>{text}</p>
     </WhatgptBacText>
   );

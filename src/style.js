@@ -42,6 +42,12 @@ export const Gradient_text = styled.div`
   font-size: 62px;
   line-height: 75px;
   letter-spacing: -0.04em;
+
+
+  @media screen and (max-width:700px){
+    font-size: 50px;
+  }
+
 `;
 
 export const Wrapper = styled.div`
@@ -176,6 +182,13 @@ export const Content = styled.div`
     font-weight: 400;
     line-height: normal;
   }
+
+  @media screen and (max-width:700px) {
+    p{
+      font-size: 16px;
+    }
+  }
+
 `;
 export const Inputtext = styled.div`
   display: flex;
@@ -298,6 +311,7 @@ export const WhatgptBacText = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
+
   ${Gradient_text} {
     font-size: 34px;
     font-style: normal;
@@ -321,5 +335,13 @@ export const Wrapperblog = styled.div`
   img {
     width: 200px;
     height: auto;
+  }
+`;
+export const Whatgptblog = styled.div`
+  div {
+    width: 38px;
+    height: 3px;
+    background-image: var(--gradient-bar);
+    margin-bottom: 20px;
   }
 `;
